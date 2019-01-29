@@ -4,6 +4,8 @@ Detect and visulize the domain changes occur around SIGIR conference
 
 ## Algorithm Explaination
 
+The newest algorithm flows are contained in report.pptx. We've attached another version below:
+
 The final goal of this algorithm is to compute the 2D embedding of the papers points around SIGIR conference. To accomplish this, we need to construct a reference graph <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;G&space;=&space;(V,&space;E)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;G&space;=&space;(V,&space;E)" title="G = (V, E)" /></a> and use largeVis to compute the graph embedding in two-dimensional space.
 
 1. Treat each paper in [Aminer](https://aminer.org/open-academic-graph) as a point, two paper are connected with a directed edge if one cites another.
